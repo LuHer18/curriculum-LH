@@ -1,0 +1,54 @@
+.card-project{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(200px, 1fr)
+    );
+    gap: 1rem;
+}
+.container-project{
+    border-radius: 6px;
+    border: 1px solid #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    height: 100%;
+    gap: 1rem;
+}
+.container-project header {
+    flex: 1;
+}
+
+.container-project h3 {
+    margin-bottom: 4px;
+    display: flex;
+    gap: 0.2rem;
+}
+.container-project h3 span {
+    color: rgb(0, 188, 47) ;
+}
+.container-project a {
+    color: #111;
+}
+.container-project a:hover {
+    text-decoration: underline;
+}
+.container-project p {
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+}
+
+.footer-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+}
+.footer-card span {
+    border-radius: 6px;
+    background: #eee;
+    color: #444;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.2rem;
+}
