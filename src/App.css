@@ -1,0 +1,11 @@
+main{
+    padding: 1rem;
+    margin: auto;
+    width: 100%;
+}
+
+@media( min-width: 450px){
+    main{
+        padding: 4rem;
+    }
+}

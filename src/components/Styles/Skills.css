@@ -1,0 +1,20 @@
+.list-skill{
+    display: inline-flex;
+    gap: 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.skill {
+    border-radius: 6px;
+    background-color: #444;
+    font-size: .8rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+}
+.skill p {
+    color: white;
+}
+
+.skill:hover {
+    background-color: #777;  
+}

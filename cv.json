@@ -1,0 +1,179 @@
+{
+    "basics": {
+      "name": "Luis Herrera Contreras",
+      "label": "Desarrollador FrontEnd",
+      "image": "./src/assets/profile.png",
+      "email": "luis1818.lh@gmail.com",
+      "phone": "+57 3043685757",
+      "url": "",
+      "summary": "+4 Años de experiencia como Ingeniero industrial. Actualmente Desarrollador Web autodidacta. Vivo en Cartagena, Colombia. Poseo habilidades en  tecnologías como React, JavaScript, HTML, CSS, Tailwind CSS.",
+      "location": {
+        "address": "",
+        "postalCode": "130001",
+        "city": "Cartagena",
+        "countryCode": "COL",
+        "region": "Colombia"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "Luis Herrera",
+          "url": "https://www.linkedin.com/in/luis-herrera-26b706161/"
+        },
+        {
+          "network": "GitHub",
+          "username": "LuHer18",
+          "url": "https://github.com/LuHer18"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "midudev",
+        "position": "Divulgador sobre Programación Web",
+        "url": "https://twitch.tv/midudev",
+        "startDate": "2021-01-01",
+        "endDate": null,
+        "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+        "highlights": [
+          "Started the company"
+        ]
+      }
+    ],
+    "volunteer": [{ 
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "Universidad Tecnologica de Bolívar",
+      "url": "https://www.utb.edu.co/",
+      "area": "Ingeniero Industrial",
+      "studyType": "Título universitario",
+      "startDate": "2013-01-30",
+      "endDate": "2017-07-26",
+      "score": "4.08"
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [
+      {
+        "name": "React",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "HTML",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "Tailwind",
+        "level": "Intermedio",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        ]
+      },
+      
+      {
+        "name": "Git",
+        "level": "Intermedio",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "B1"
+      }
+    ],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [
+      {
+        "name": "Viva Color",
+        "isActive": true,
+        "description": "Genera paletas de colores ideales para tus sitios webs",
+        "highlights": [
+          "React",
+          "Tailwind CSS",
+          "Vite"
+        ],
+        "url": "https://viva-color-app.netlify.app"
+      },
+      {
+        "name": "PopCorn Film",
+        "isActive": true,
+        "description": "Busca trailers de tus películas y series favoritas. Construida con información obtenida por la API de TMDB",
+        "highlights": [
+          "React",
+          "Tailwind CSS",
+          "Vite"
+        ],
+        "url": "https://popcorn-film.vercel.app"
+      }
+    ]
+  }
