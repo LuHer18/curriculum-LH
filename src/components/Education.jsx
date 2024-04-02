@@ -7,7 +7,7 @@ export const Education = () => {
 
   return (
     <Section title='Educación'>
-      <ul >
+      <ul className='card-education' >
         {
           education.map(({studyType, institution, area, startDate, endDate}) => {
             const starYear = new Date(startDate).getFullYear()
@@ -15,8 +15,8 @@ export const Education = () => {
             const years = `${starYear} - ${endYear}`
             return(
 
-            <li key={studyType}>
-              <article>
+            <li className='item-education' key={studyType}>
+              <article className='container-education'>
                 <div>
                   <h3>{institution}</h3>
                   <h4>{studyType}: {area}</h4>

@@ -37,13 +37,19 @@ span{
     letter-spacing: -0.05rem;
 }
 
-footer{
+.footer-basic{
+    font-size:0.65rem ;
+    color: #444;
     display: flex;
     gap: 4px;
     margin-top: 8px;
 }
 
-footer a{
+.print {
+    display: none;
+}
+
+.footer-basic a{
     color: #777;
     display: inline-flex;
     align-items: center;
@@ -55,8 +61,17 @@ footer a{
     border-radius: 6px;
     transition: all .3s ease;
 }
-footer a:hover{
+.footer-basic a:hover{
     background-color: #eee;
     color: #000;
     border: 1px solid #ccc;
+}
+
+@media print {
+    .print {
+        display: flex;
+    }
+    .no-print{
+        display: none;
+    }
 }

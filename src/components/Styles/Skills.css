@@ -18,3 +18,10 @@
 .skill:hover {
     background-color: #777;  
 }
+
+@media print {
+    .skill p {
+        color: #444;
+        font-weight: 700;
+    } 
+}

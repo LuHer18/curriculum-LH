@@ -12,6 +12,12 @@ export const Basic = () => {
     const { name, label, location, image, profiles, phone, email } = basics
     const { city, region } = location
     const socialIcon = { GitHub, LinkedIn }
+    const linkedInFo = profiles.find(({network})=> network === 'LinkedIn')
+    const linkedUrl = linkedInFo?.url
+    const GitHubInFo = profiles.find(({network})=> network === 'GitHub')
+    const GibtUser = GitHubInFo?.username
+
+    const printInfo = [email, phone, `LinkedIn: ${linkedUrl}`, `GitHub: ${GibtUser}`].filter(Boolean).join(' • ')
     return (
         <>
             <Section>
@@ -23,7 +29,10 @@ export const Basic = () => {
                             <WorldMap/>
                             {city}, {region}
                         </span>
-                        <footer>
+                        <footer className='footer-basic print'>
+                            {printInfo}
+                        </footer>
+                        <footer className='footer-basic no-print'>
                             {
                                 email && (
                                     <a

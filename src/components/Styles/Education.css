@@ -1,20 +1,20 @@
-ul {
+.card-education {
     display: flex;
     gap: 32px;   
     flex-direction: column;
 }
 
-article {
+.container-education {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-article h3 {
+.container-education h3 {
     font-weight: 500;
     color: #111;
 }
-article h4 {
+.container-education h4 {
     font-weight: 400;
     color: #222;
 }
