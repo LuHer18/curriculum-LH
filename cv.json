@@ -2,7 +2,7 @@
     "basics": {
       "name": "Luis Herrera Contreras",
       "label": "Desarrollador FrontEnd",
-      "image": "./public/profile.webp",
+      "image": "/profile.webp",
       "email": "luis1818.lh@gmail.com",
       "phone": "+57 3043685757",
       "url": "",
