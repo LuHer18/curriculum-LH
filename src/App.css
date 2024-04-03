@@ -9,3 +9,8 @@ main{
         padding: 4rem;
     }
 }
+@media print {
+    ninja-keys{
+        display: none !important;
+    }
+}

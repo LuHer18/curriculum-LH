@@ -23,13 +23,11 @@ export const Projects = () => {
                     <p>{description}</p>
                   </header>
                   <footer className='footer-card'>
-
                     {
                       highlights.map(highlight => (
                         <span key={highlight}>{highlight}</span>
                       ))
                     }
-
                   </footer>
                 </article>
               </li>
