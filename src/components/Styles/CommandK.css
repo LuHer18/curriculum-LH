@@ -1,0 +1,65 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+@media (min-width: 1025px) {
+    #normal-footer {
+      display: block;
+    }
+
+    #footer-button {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    #normal-footer {
+      display: none;
+    }
+
+    #footer-button {
+      background: #fff;
+      position: fixed;
+      border: 1px solid #eee;
+      right: 10px;
+      bottom: 10px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  }
+  
+  #normal-footer {
+    background: #fdfdfd;
+    border-top: 1px solid #eee;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding-block: 8px;
+    text-align: center;
+    font-size: 0.85rem;
+
+    view-timeline-name: --revealing;
+    view-timeline-axis: block;
+
+    animation: linear 0.3s fadeIn;
+    animation-timeline: --revealing;
+    animation-range: entry 100% cover 10%;
+  }
+
+  kbd {
+    background: #eee;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-size: 12px;
+    font-weight: 800;
+  }

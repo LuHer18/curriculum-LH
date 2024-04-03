@@ -72,6 +72,6 @@ span{
         display: flex;
     }
     .no-print{
-        display: none;
+        display: none !important;
     }
 }
