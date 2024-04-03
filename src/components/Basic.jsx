@@ -17,7 +17,8 @@ export const Basic = () => {
     const GitHubInFo = profiles.find(({network})=> network === 'GitHub')
     const GibtUser = GitHubInFo?.username
 
-    const printInfo = [email, phone, `LinkedIn: ${linkedUrl}`, `GitHub: ${GibtUser}`].filter(Boolean).join(' • ')
+    const printInfo = [email, phone].filter(Boolean).join(' • ')
+    const printInfoSocial = [`LinkedIn: ${linkedUrl}`, `GitHub: ${GibtUser}`].filter(Boolean).join(' ')
     return (
         <>
             <Section>
@@ -30,7 +31,10 @@ export const Basic = () => {
                             {city}, {region}
                         </span>
                         <footer className='footer-basic print'>
-                            {printInfo}
+                            <div className='order-items'>
+                                <p>{printInfo}</p>
+                                <p>{printInfoSocial}</p>
+                            </div>
                         </footer>
                         <footer className='footer-basic no-print'>
                             {

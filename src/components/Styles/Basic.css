@@ -12,6 +12,11 @@
     padding-right: 32px;
 }
 
+.order-items{
+    display: flex;
+    flex-direction: column;
+}
+
 h1{
     font-size: 2rem;
     
