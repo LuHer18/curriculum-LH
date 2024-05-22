@@ -6,7 +6,7 @@
       "email": "luis1818.lh@gmail.com",
       "phone": "+57 3043685757",
       "url": "",
-      "summary": "+4 Años de experiencia como Ingeniero industrial. Actualmente Desarrollador Web autodidacta. Vivo en Cartagena, Colombia. Poseo habilidades en  tecnologías como React, JavaScript, HTML, CSS, Tailwind CSS.",
+      "summary": "+ 4 años de experiencia como Ingeniero Industrial especializado en compras. Actualmente, soy Desarrollador Frontend con habilidades en frameworks, diseño responsivo, creación y consumo de APIs, pruebas de código y control de versiones. Mi experiencia anterior me ha dotado de competencias transferibles al desarrollo web, como la optimización de procesos, la resolución de problemas y la gestión de proyectos. Dispuesto a aplicar mis conocimientos técnicos y mi experiencia en un entorno de desarrollo web, contribuyendo con soluciones innovadoras y eficientes.",
       "location": {
         "address": "",
         "postalCode": "130001",
@@ -182,7 +182,20 @@
           "Base de datos", "Backend", "SQL"
         ]
       },
-      
+      {
+        "name": "Jest",
+        "level": "Intermedio",
+        "keywords": [
+          "Testing", "Frontend"
+        ]
+      },  
+      {
+        "name": "React Testing Library",
+        "level": "Intermedio",
+        "keywords": [
+          "Testing", "Frontend"
+        ]
+      },     
       {
         "name": "Git",
         "level": "Intermedio",
@@ -232,18 +245,6 @@
           "MongoDB"
         ],
         "url": "https://calendar-ebon-seven.vercel.app/"
-      },
-      {
-        "name": "Journal App",
-        "isActive": true,
-        "description": "Genera tus notas personales, incluye imágenes en forma de galería.",
-        "highlights": [
-          "React",
-          "Material UI",
-          "FireBase",
-          "Cloudinary"
-        ],
-        "url": "https://journal-app-mu-ashen.vercel.app/"
       },
       {
         "name": "Viva Color",
