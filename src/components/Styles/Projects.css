@@ -33,10 +33,10 @@
 .container-project a:hover {
     text-decoration: underline;
 }
-.container-project p {
+/* .container-project p {
     font-size: 0.75rem;
     line-height: 1.2rem;
-}
+} */
 
 .footer-card {
     display: flex;

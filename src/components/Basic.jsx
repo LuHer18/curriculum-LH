@@ -57,7 +57,7 @@ export const Basic = () => {
                                 )
                             }
                             {
-                                profiles.map(({ network, url, username }) => {
+                                profiles.map(({ network, url }) => {
                                     const Icon = socialIcon[network]
                                     return (
                                         <a

@@ -223,7 +223,7 @@
       {
         "name": "Calendar",
         "isActive": true,
-        "description": "Crea eventos, revisa y actualiza tu agenta, se mas productivo. ",
+        "description": "Crea eventos, revisa y actualiza tu agenda, se más productivo.",
         "highlights": [
           "React",
           "Bootstrap",
