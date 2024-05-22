@@ -21,7 +21,7 @@
 
 @media print {
     .skill p {
-        color: #444;
+        color: white;
         font-weight: 700;
     } 
 }

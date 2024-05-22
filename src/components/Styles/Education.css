@@ -1,6 +1,6 @@
 .card-education {
     display: flex;
-    gap: 32px;   
+    gap: 6px;   
     flex-direction: column;
 }
 
@@ -13,6 +13,11 @@
 .container-education h3 {
     font-weight: 500;
     color: #111;
+}
+.certification{
+    font-weight: 700;
+    color: #111;
+    margin: 10px 0;
 }
 .container-education h4 {
     font-weight: 400;

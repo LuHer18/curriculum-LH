@@ -4,22 +4,9 @@ import { Education } from "./components/Education"
 import { Projects } from "./components/Projects"
 import { Skills } from "./components/Skills"
 import './App.css'
-import { Language } from "./components/Language"
+/* import { Language } from "./components/Language" */
 import { CommandK } from "./components/CommandK"
 function App() {
-
-    /* ninja.data = [
-      {
-        id: 'print',
-        title: '🖨 Imprimir',
-        hotkey: 'ctrl+p',
-        section: 'Acción',
-        handler: () => {
-          window.print()
-        },
-      },
-    ] */
-
 
   return (
     <>
@@ -29,7 +16,7 @@ function App() {
         <Projects />
         <Education />
         <Skills />
-        <Language />
+        {/* <Language /> */}
       </main>
       <CommandK/>
     </>

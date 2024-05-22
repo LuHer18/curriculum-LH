@@ -9,7 +9,7 @@ import './Styles/Basic.css'
 import { WorldMap } from '../assets/icons/WorldMap'
 
 export const Basic = () => {
-    const { name, label, location, image, profiles, phone, email } = basics
+    const { name, label, location, profiles, phone, email } = basics
     const { city, region } = location
     const socialIcon = { GitHub, LinkedIn }
     const linkedInFo = profiles.find(({network})=> network === 'LinkedIn')
@@ -76,9 +76,6 @@ export const Basic = () => {
                             }
                         </footer>
                     </div>
-                    {/* <figure>
-                        <img src={image} alt="" />
-                    </figure> */}
                 </div>
             </Section>
         </>
