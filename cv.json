@@ -29,14 +29,14 @@
     },
     "work": [
       {
-        "name": "midudev",
-        "position": "Divulgador sobre Programación Web",
-        "url": "https://twitch.tv/midudev",
-        "startDate": "2021-01-01",
+        "name": "",
+        "position": "",
+        "url": "",
+        "startDate": "2",
         "endDate": null,
-        "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+        "summary": "",
         "highlights": [
-          "Started the company"
+          ""
         ]
       }
     ],
@@ -154,6 +154,31 @@
     }],
     "projects": [
       {
+        "name": "Calendar",
+        "isActive": true,
+        "description": "Crea eventos, revisa y actualiza tu agenta, se mas productivo. ",
+        "highlights": [
+          "React",
+          "Bootstrap",
+          "Node",
+          "Express",
+          "MongoDB"
+        ],
+        "url": "https://calendar-ebon-seven.vercel.app/"
+      },
+      {
+        "name": "Journal App",
+        "isActive": true,
+        "description": "Genera tus notas personales, incluye imágenes en forma de galería.",
+        "highlights": [
+          "React",
+          "Material UI",
+          "FireBase",
+          "Cloudinary"
+        ],
+        "url": "https://journal-app-mu-ashen.vercel.app/"
+      },
+      {
         "name": "Viva Color",
         "isActive": true,
         "description": "Genera paletas de colores ideales para tus sitios webs",
@@ -175,5 +200,6 @@
         ],
         "url": "https://popcorn-film.vercel.app"
       }
+      
     ]
   }

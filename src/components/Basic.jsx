@@ -16,7 +16,6 @@ export const Basic = () => {
     const linkedUrl = linkedInFo?.url
     const GitHubInFo = profiles.find(({network})=> network === 'GitHub')
     const GibtUser = GitHubInFo?.username
-
     const printInfo = [email, phone].filter(Boolean).join(' • ')
     const printInfoSocial = [`LinkedIn: ${linkedUrl}`, `GitHub: ${GibtUser}`].filter(Boolean).join(' ')
     return (
@@ -77,9 +76,9 @@ export const Basic = () => {
                             }
                         </footer>
                     </div>
-                    <figure>
+                    {/* <figure>
                         <img src={image} alt="" />
-                    </figure>
+                    </figure> */}
                 </div>
             </Section>
         </>

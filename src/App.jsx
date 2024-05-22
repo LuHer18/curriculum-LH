@@ -26,8 +26,8 @@ function App() {
       <main>
         <Basic />
         <AboutMe />
-        <Education />
         <Projects />
+        <Education />
         <Skills />
         <Language />
       </main>
