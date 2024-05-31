@@ -3,7 +3,12 @@
 <p align="center" >Basado en los diseños de <a href='https://github.com/BartoszJarocki/cv'>BartoszJarocki</a> y de <a href='https://github.com/midudev/minimalist-portfolio-json'>midudev</a> </p>
 
 ## Captura de Pantalla del Curriculum
-![image](https://github.com/LuHer18/curriculum-LH/assets/134423209/24feed42-7df4-476d-bbf5-31c515087548)
+![curriculum-Lh](https://github.com/LuHer18/curriculum-LH/assets/134423209/2e7cdc29-f38c-4d6c-ae24-4c328ca3623a)
+
+## Captura de Pantalla del Curriculum en versión Mobile
+
+![curriculumLhMobile](https://github.com/LuHer18/curriculum-LH/assets/134423209/64092adb-d9fe-4d26-bc4c-cb579e68e102)
+
 
 ## 💥 Caracteristicas principales
 
